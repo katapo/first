@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Leckerli+One);
+
+
+body { 
+	padding-top: 50px;
+}
+
+.style {
+	font-family: 'Leckerli One', cursive;
+}
+
+.jumbotron {
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+	url(https://static.pexels.com/photos/358146/pexels-photo-358146.jpeg) 0/cover;
+	height: 100vh;	
+}
+
+.jumbotron  h1 {
+	color: #FFF;
+	margin-bottom:50px;
+}
+
+.carousel {
+	background-color: #222;
+}
+
+.carousel img {
+	margin-top: 0;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+[class*="example"] {
+	min-height: 100px;
+}
+
+.example {
+	object-fit: cover;
+}
+
+img {
+	margin: 0 auto;
+}
+
+.tab-pane {
+  padding: 10px;
+}
+
+.vertical-space {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.btn-danger {
+	text-align: center;
+	margin: auto;
+}
+
+.embed-responsive-16by9  {
+	padding: 10% 30%;
+}
+
+@media (max-width: 992px) {
+	
+	body { 
+		padding-top: 100px; 
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	body { 
+		padding-top: 0; 
+	}
+	
+    .navbar-fixed-top {
+        position: static;
+        margin-bottom: 0;
+    }
+	
+	.navbar-fixed-bottom {
+		position: static; 
+	}
+}
