@@ -10,7 +10,7 @@ body {
 }
 
 .jumbotron {
-	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+	background: linear-gradient(rgba(0, 0, 0, .6),  rgba(0, 0, 0, .6)),
 	url(https://static.pexels.com/photos/358146/pexels-photo-358146.jpeg) 0/cover;
 	height: 100vh;	
 }
